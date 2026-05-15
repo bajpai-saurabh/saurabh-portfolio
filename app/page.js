@@ -9,7 +9,7 @@ export default function PortfolioWebsite() {
               Saurabh Bajpai
             </h1>
             <p className="text-xl text-gray-200 mb-6">
-              PCRF & Telecom Core Specialist | Cloud-Native Packet Core Engineer | Kubernetes & OpenShift Enthusiast
+              PCRF & Telecom Core Specialist | Cloud-Native PCRF & OCS consultant | Kubernetes & OpenShift Enthusiast
             </p>
 
             <div className="flex flex-wrap gap-4">
