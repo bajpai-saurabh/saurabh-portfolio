@@ -195,24 +195,6 @@ export default function PortfolioWebsite() {
         </div>
       </section>
 
-      <section id="certifications">
-        <div className="max-w-6xl mx-auto px-6 py-20">
-          <h2 className="text-5xl font-black mb-12 tracking-tight">Certifications & Learning</h2>
-
-          <div className="grid md:grid-cols-2 gap-6">
-            {[
-              'Kubernetes (CKA Preparation)',
-              'OpenShift Administration',
-              'Cloud Native Telecom',
-              '5G Core Network Architecture'
-            ].map((item, idx) => (
-              <div key={idx} className="bg-white p-6 rounded-2xl shadow-lg text-lg font-medium">
-                {item}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Contact */}
       <section id="contact" className="py-24 px-6 bg-gradient-to-r from-slate-950 via-slate-900 to-slate-800 text-white">
