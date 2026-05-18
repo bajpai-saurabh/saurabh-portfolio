@@ -123,7 +123,7 @@ export default function PortfolioWebsite() {
           <div className="space-y-10">
 
             <div className="bg-white rounded-3xl p-10 shadow-xl border-l-8 border-slate-900">
-              <h3 className="text-3xl font-black mb-3">Solution Engineer — Shanda Information Co. LTD / YUWEI Information Technology</h3>
+              <h3 className="text-3xl font-black mb-3">Solution Consultant — Shanda Information Co. LTD / YUWEI Information Technology</h3>
               <p className="text-slate-500 text-lg mb-5">November 2023 – Present | Taipei, Taiwan</p>
 
               <ul className="list-disc ml-6 space-y-3 text-lg leading-8 text-slate-700">
