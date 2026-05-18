@@ -123,7 +123,7 @@ export default function PortfolioWebsite() {
           <div className="space-y-10">
 
             <div className="bg-white rounded-3xl p-10 shadow-xl border-l-8 border-slate-900">
-              <h3 className="text-3xl font-black mb-3">Solution Consultant — Shanda Information Co. LTD / YUWEI Information Technology</h3>
+              <h3 className="text-3xl font-black mb-3">Solution Engineer — Shanda Information Co. LTD / YUWEI Information Technology</h3>
               <p className="text-slate-500 text-lg mb-5">November 2023 – Present | Taipei, Taiwan</p>
 
               <ul className="list-disc ml-6 space-y-3 text-lg leading-8 text-slate-700">
@@ -195,24 +195,6 @@ export default function PortfolioWebsite() {
         </div>
       </section>
 
-      <section id="certifications">
-        <div className="max-w-6xl mx-auto px-6 py-20">
-          <h2 className="text-5xl font-black mb-12 tracking-tight">Certifications & Learning</h2>
-
-          <div className="grid md:grid-cols-2 gap-6">
-            {[
-              'Kubernetes (CKA Preparation)',
-              'OpenShift Administration',
-              'Cloud Native Telecom',
-              '5G Core Network Architecture'
-            ].map((item, idx) => (
-              <div key={idx} className="bg-white p-6 rounded-2xl shadow-lg text-lg font-medium">
-                {item}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Contact */}
       <section id="contact" className="py-24 px-6 bg-gradient-to-r from-slate-950 via-slate-900 to-slate-800 text-white">
@@ -226,7 +208,17 @@ export default function PortfolioWebsite() {
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white/10 p-6 rounded-2xl backdrop-blur-lg">
               <h3 className="font-semibold text-lg mb-2">Email</h3>
-              <p>saurabh_bajpai@hotmail.com</p>
+              <div className="flex flex-col sm:flex-row gap-4 mt-8">
+              <a
+                href="/SAURABH_BAJPAI_CV.pdf"
+                target="_blank"
+                className="inline-flex items-center justify-center rounded-2xl bg-white text-slate-900 px-6 py-4 text-lg font-bold shadow-xl hover:scale-105 transition-transform duration-300"
+              >
+                Download Resume PDF
+              </a>
+            </div>
+
+            <p className="mt-8">saurabh_bajpai@hotmail.com</p>
             </div>
 
             <div className="bg-white/10 p-6 rounded-2xl backdrop-blur-lg">
