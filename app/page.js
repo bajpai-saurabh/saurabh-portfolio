@@ -85,7 +85,7 @@ export default function PortfolioWebsite() {
             {[
               {
                 title: 'Telecom Core',
-                skills: ['5G Core', 'EPC', 'PCRF/PCF', 'Diameter', 'AAA', 'Roaming']
+                skills: ['5G Core', 'EPC', 'IMS', 'PCRF/PCF', 'Diameter', 'AAA', 'Roaming']
               },
               {
                 title: 'Cloud Native',
@@ -128,9 +128,10 @@ export default function PortfolioWebsite() {
 
               <ul className="list-disc ml-6 space-y-3 text-lg leading-8 text-slate-700">
                 <li>Working on Nokia telecom core and cloud-native projects involving PCRF/NPC, Diameter, EPC migration, and roaming migration activities.</li>
-                <li>Successfully completed Taiwan Mobile North, South, and Central Nokia PCRF upgrades with zero major outage.</li>
+                <li>Successfully completed Taiwan Mobile North, South, and Central Nokia IMS PCRF upgrades with zero major outage.</li>
                 <li>Provided troubleshooting and integration support for telecom core platforms and customer escalations.</li>
                 <li>Worked on Kubernetes/OpenShift-based telecom infrastructure and CNF environments.</li>
+                <li>Worked on Openstack-based telecom infrastructure and VNF environments.</li>
                 <li>Supported telecom deployments involving OpenStack, VNFs, Linux, and cloud-native telecom infrastructure.</li>
                 <li>Collaborated with customers, R&D teams, and global integration teams for deployment planning and issue resolution.</li>
               </ul>
