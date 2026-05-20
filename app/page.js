@@ -83,7 +83,7 @@ export default function PortfolioWebsite() {
             {[
               {
                 title: 'Telecom Core',
-                skills: ['5G Core', 'EPC', 'IMS', 'PCRF/PCF', 'Diameter', 'AAA', 'Roaming']
+                skills: ['5G Core', 'EPC', 'IMS', 'PCRF/PCF', 'OCS/CHF', 'Diameter', 'AAA', 'Roaming']
               },
               {
                 title: 'Cloud Native',
