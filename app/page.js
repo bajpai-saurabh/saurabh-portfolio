@@ -59,19 +59,17 @@ export default function PortfolioWebsite() {
           <h2 className="text-5xl font-black mb-10 tracking-tight">About Me</h2>
 
           <div className="bg-white rounded-3xl shadow-xl p-8 leading-8 text-lg">
-            I am a Telecom Core and PCRF Specialist with over 13 years of experience in telecom core networks, subscriber migration, and large-scale operator deployments across Asia and Africa. I specialize in PCRF/PCF integration, Diameter signaling, Packet Core operations, subscriber migration, and cloud-native telecom infrastructure based on Kubernetes and OpenShift.
-            
-            I have successfully delivered critical telecom transformation programs for major operators including Taiwan Mobile, Vodafone, MTN, IDEA, and other global telecom providers.
+            I am a Telecom Core and Policy Charging Specialist with over 13 years of experience in telecom core networks, subscriber migration, charging systems, and large-scale operator deployments across Asia and Africa. I specialize in PCRF/PCF architecture and integration, Diameter signaling, Packet Core operations, VoLTE and data service deployments, and CHF (Charging Function) implementations in modern 4G/5G converged networks.
 
-            I am a telecom core network engineer with extensive experience in Packet Core,
-            Diameter signaling, PCRF/PCF, and cloud-native telecom platforms.
-            
-            Over the years, I have worked on large-scale telecom deployments,
-            subscriber migrations, troubleshooting, integrations, and Kubernetes/OpenShift-based
-            cloud-native transformations.
+            I have hands-on experience across both legacy and cloud-native core environments, including PCF/PCRF policy control, CHF-based charging architecture, tariff and rating configuration, and end-to-end charging system planning. I have been involved in designing and delivering online/offline charging solutions, policy-based charging control, and seamless integration of charging systems within operator ecosystems.
 
-            I specialize in bridging traditional telecom core technologies with modern
-            cloud-native infrastructure and automation.
+            I have also worked on VoLTE deployments and data service rollouts, covering IMS integration, session management, QoS enforcement, and subscriber experience optimization in LTE and VoLTE networks.
+
+            I have successfully delivered critical telecom transformation programs for major operators including Taiwan Mobile, Vodafone, MTN, IDEA, and other global telecom providers, spanning EPC modernization and 5G core evolution.
+
+            In addition, I have strong expertise in Kubernetes and OpenShift-based telecom cloud-native transformations, enabling scalable deployments of core network functions such as PCRF/PCF and CHF.
+
+            Overall, I specialize in bridging traditional telecom core systems with modern cloud-native architectures, automation frameworks, and next-generation policy, charging, VoLTE, and data service platforms.
           </div>
         </div>
       </section>
